@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 30.JavaScript</title>
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
+
+    <link rel="stylesheet" href="Bootstrap/css/main.css">
+
+</head>
+<body>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-4 offset-4 mt-5     ">
+            <div class="card">
+                <div class="card-header">
+                    <input type="text" class="form-control text-right disabled" value="0" id="screen">
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-12"><button class="btn btn-block btn-danger" onclick="clearScreen()">C</button></div>
+                        <div class="col-3"><button class="btn btn-success btn-block" onclick="addNumber(1)">1</button></div>
+                        <div class="col-3"><button class="btn btn-success btn-block" onclick="addNumber(2)">2</button></div>
+                        <div class="col-3"><button class="btn btn-success btn-block " onclick="addNumber(3)">3</button></div>
+                        <div class="col-3"><button class="btn btn-primary btn-block" onclick="action('add')" >+</button></div>
+                        <div class="col-3"><button class="btn btn-success btn-block" onclick="addNumber(4)">4</button></div>
+                        <div class="col-3"><button class="btn btn-success btn-block" onclick="addNumber(5)">5</button></div>
+                        <div class="col-3"><button class="btn btn-success btn-block" onclick="addNumber(6)">6</button></div>
+                        <div class="col-3"><button class="btn btn-primary btn-block" onclick="action('subtract')">-</button></div>
+                        <div class="col-3"><button class="btn btn-success btn-block" onclick="addNumber(7)">7</button></div>
+                        <div class="col-3"><button class="btn btn-success btn-block" onclick="addNumber(8)">8</button></div>
+                        <div class="col-3"><button class="btn btn-success btn-block" onclick="addNumber(9)">9</button></div>
+                        <div class="col-3"><button class="btn btn-primary btn-block" onclick="action('multiply')">*</button></div>
+                        <div class="col-3"><button class="btn btn-success btn-block" onclick="addNumber(0)">0</button></div>
+                        <div class="col-3"><button class="btn btn-primary btn-block" onclick="addNumber('.')">.</button></div>
+                        <div class="col-3"><button class="btn btn-primary btn-block" onclick="equal()">=</button></div>
+                        <div class="col-3"><button class="btn btn-primary btn-block" onclick="action('divide')">/</button></div>
+                        <div class="col-3"><button class="btn btn-primary btn-block" onclick="action('delete')">&#10229;</button></div>
+                        <div class="col-3"><button class="btn btn-primary btn-block" onclick="action('sqrt')">&#8730;</button></div>
+                        <div class="col-3"><button class="btn btn-primary btn-block" onclick="action('pow')">X<sup>2</sup></button></div>
+                        <div class="col-3"><button class="btn btn-primary btn-block" onclick="action('pilus-minus')">&#177;</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="Bootstrap/js/jquery-3.3.1.slim.min.js"></script>
+<script src="Bootstrap/js/popper.min.js"></script>
+<script src="Bootstrap/js/bootstrap.js"></script>
+<script src="Bootstrap/js/main.js"></script>
+</body>
+</html>
